@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  align-items: center;
+  width: 1440px;
+  height: 700px;
+  margin: auto;
+  padding: 15px;
+}
+
+canvas {
+  position: absolute;
+  width: 236.01px;
+  height: 165px;
+  margin: 16px;
+}
+
+.container {
+  /* height: 400px; */
+  display: flex;
+}
+
+.container > div {
+  width: 50%;
+}
+
+.roww {
+  width: 100%;
+  display: flex;
+}
+.often-used {
+  padding: 12px;
+  height: 200px;
+  border-radius: 25px;
+  font-size: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.yellow {
+  width: 400px;
+  background: #FAEC43;
+  color: white;
+}
+
+.red {
+  width: 320px;
+  background: #D7567F;
+  color: white;
+}
+
+.green {
+  width: 320px;
+  background: #008080;
+  color: white;
+}
+
+.blue {
+  width: 385px;
+  background: #0064CD;
+  color: white;
+}
+
+img {
+  border-radius: 8px;
+  
+}
+
+video {
+  margin: 16px;
+}
+
+
+.expand-btn {
+  margin: 16px;
+  width: 100%;
+  height: 165px;
+  background: lightblue;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+}
+
+.menu {
+  width: 100%;
+  height: 80px;
+  border: 1px solid skyblue;
+}
+
+#back{
+  margin-left: 10px;
+}
+
+table{
+  width : 65%;
+  border : 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  margin: auto;
+}
+
+td{
+  padding: 20px;
+  border : 1px solid black;
+  font-size: 40px;
+}
+
+th{
+  width: 385px;
+  padding: 20px;
+  background: #0064CD;
+  color: white;
+  font-size: 40px;
+}
+
+#btnback{
+  margin: 50px;
+  width: 320px;
+  border: none;
+  background: #D7567F;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+.mainBtn {
+  border: none;
+  background: none;
+  text-align: left;
+  padding: 0;
+
+}
